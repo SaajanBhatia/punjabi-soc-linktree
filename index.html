@@ -18,7 +18,7 @@
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Poppins:ital@1&family=Roboto+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
 
 
 
@@ -28,42 +28,27 @@
 <!--Custom CSS-->
 <style>
     body{
-        background: url(background-image-8.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        background-size: auto 100vh;
-        background-attachment: fixed;
-
-        font-family: 'Fredoka', sans-serif;
-        font-family: 'Poppins', sans-serif;
-        font-family: 'Roboto Mono', monospace;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #0B3954;
     }
     #main-card{
         margin-top: 15%; 
-        backdrop-filter: blur(0.5px);
     }
 
     /* Big Screens*/
     @media only screen and (min-width: 992px) {
         #main-card{
-            width: 50vw;
+            width: 40vw;
             margin-top: 10vh; 
         }
+    }
         
-    }
 
-    /* Large Tablets */
-    @media only screen and (min-width: 1200px) {
-        body{
-            background-size: 100vw auto;
-        }
-    }
 
     
 
     .background-blue{
-        background-color: #243D6A;
+        background-color: #0B3954;
     }
 
     .transparent-background{
@@ -71,13 +56,14 @@
     }
 
     .list-custom-item{
-        padding: 0.4rem 1rem;
+        padding: 0.3rem 0.4rem;
         border-radius: 15px;
     }
 
     .list-group-item{
         color: white;
         border: 2px solid #F1F0F9;
+        background-color: #0B3954;
     }
 
     .list-group-item:hover{
@@ -92,10 +78,10 @@
         <div class="row">
             <div class="col text-center">
                 <!--Main Card-->
-                <div class="card mx-auto transparent-background mb-3" style="border: 2px solid #F1F0F9; border-radius: 20px;" id="main-card">
+                <div class="card mx-auto mb-3" style="border: 2px solid #F1F0F9; border-radius: 20px;" id="main-card">
                     <div class="card-body">
-                      <h5 class="card-title text-white">Lboro Punjabi Society</h5>
-                      <h6 class="card-subtitle mb-2 text-white">Important Links</h6>
+                      <h4 class="card-title text-black" style="font-weight: bold">Loughborough Punjabi Society</h4>
+                      <h6 class="card-subtitle mb-2 text-black">Important Links</h6>
 
                       <ul class="list-group list-group-flush transparent-background">
 
@@ -113,7 +99,7 @@
 
                           <div class="list-custom-item">
                             <li class="list-group-item transparent-background">
-                                <p>
+                                <p >
                                     Buy a Membership!
                                 </p>
                                 <a href="https://lsu.co.uk/societies/PunjabiSociety" class="btn btn-warning" target="_blank">
